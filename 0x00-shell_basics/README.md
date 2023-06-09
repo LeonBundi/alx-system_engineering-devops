@@ -13,7 +13,7 @@ Display the contents list of your current directory.
 mandatory
 Write a script that changes the working directory to the user’s home directory.
 
-: You are not allowed to use any shell variables.
+> * You are not allowed to use any shell variables.
 
 3. The long format
 mandatory
@@ -27,9 +27,9 @@ Display current directory contents, including hidden files (starting with .). Us
 mandatory
 Display current directory contents.
 
-: Long format
-: with user and group IDs displayed numerically
-: And hidden files (starting with .)
+> * Long format
+> * with user and group IDs displayed numerically
+> * And hidden files (starting with .)
 
 6. Welcome
 mandatory
@@ -43,7 +43,7 @@ Move the file betty from /tmp/ to /tmp/my_first_directory.
 mandatory
 Delete the file betty.
 
-: The file betty is in /tmp/my_first_directory
+> * The file betty is in /tmp/my_first_directory
 
 9. Bye bye My first directory
 mandatory
@@ -91,12 +91,12 @@ You are only allowed to use two spaces (and lines) in your script, not more.
 #advanced
 Write a command that lists all the files and directories of the current directory, separated by commas (,).
 
-: Directory names should end with a slash (/)
-: Files and directories starting with a dot (.) should be listed
-: The listing should be alpha ordered, except for the directories . and .. which should be listed at the very beginning
-: Only digits and letters are used to sort; Digits should come first
-: You can assume that all the files we will test with will have at least one letter or one digit
-: The listing should end with a new line
+> * Directory names should end with a slash (/)
+> * Files and directories starting with a dot (.) should be listed
+> * The listing should be alpha ordered, except for the directories . and .. which should be listed at the very beginning
+> * Only digits and letters are used to sort; Digits should come first
+> * You can assume that all the files we will test with will have at least one letter or one digit
+> * The listing should end with a new line
 
 19. File type: School
 #advanced
