@@ -5,6 +5,7 @@
 0. Where am I? 
 > mandatory
 > > Write a script that prints the absolute path name of the current working directory.
+
 1. What’s in there? 
 > mandatory
 > > Display the contents list of your current directory.
@@ -69,13 +70,13 @@
 > mandatory
 > > Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 
-> You can consider that all HTML files have the extension .html
+> > You can consider that all HTML files have the extension .html
 
 15. Let’s move
 > #advanced
 > > Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 
-> You can assume that the directory /tmp/u will exist when we will run your script
+> > You can assume that the directory /tmp/u will exist when we will run your script
 
 16. Clean Emacs
 > #advanced
@@ -85,7 +86,7 @@
 > #advanced
 > > Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 
-> You are only allowed to use two spaces (and lines) in your script, not more.
+> > You are only allowed to use two spaces (and lines) in your script, not more.
 
 18. Life is a series of commas, not periods
 > #advanced
